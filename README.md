@@ -4,7 +4,7 @@ This project is basically just a merge of the latest SlashDiablo beta bh 1.9.9 a
 
 You will need to use at least BH 1.9.10 (BETA).
 
-Get beta bh here:
+Get beta bh here, you must use the bh.dll from here:
 https://github.com/BeLikeLeBron/bhconfig
 
 Planqi's original repo:
