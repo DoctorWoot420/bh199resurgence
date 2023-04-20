@@ -18,3 +18,5 @@ https://github.com/BeLikeLeBron/bhconfig
 
 Planqi's original repo where all of the resurgence-specific lines originated from:
 https://github.com/planqi/bh_config
+
+Also thanks to Hog, Isumi, Encino, and Rusty for contributing. 
