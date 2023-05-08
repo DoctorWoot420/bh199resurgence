@@ -42,8 +42,8 @@
 	//Rockstopper alch
 	ItemDisplay[(NMAG) (xkp) {ILVL>17)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20%
 	
-	//Diamond ammy - maras alch
-	ItemDisplay[(NMAG AND ILVL>84) (au5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 	
 	//archon plate - endless fog alch
 	ItemDisplay[(NMAG AND ILVL>79) (utp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
@@ -304,8 +304,8 @@
 		//troll nest - crafting
 		ItemDisplay[(NMAG || MAG) (ush)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 		
-		//Diamond ammy - maras alch
-		ItemDisplay[(NMAG AND ILVL>84) (au5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		// Diamond Amulet - Mara's alch
+		ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 		
 		//archon plate - endless fog alch
 		ItemDisplay[(NMAG AND ILVL>79) (utp)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
@@ -366,6 +366,16 @@
 		ItemDisplay[(NMAG) (9ws AND ILVL>54)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 		ItemDisplay[(NMAG) (pc1 AND ILVL>19)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 		ItemDisplay[(NMAG) (xlt AND ILVL>44)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+		// Justicar valor alchs - The Revered, The Redeemer, Bane of Acheron
+		ItemDisplay[NMAG !SUP !INF pc4 ILVL>17]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF scp ILVL>8]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF plt ILVL>22]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		
+		// Inquisitor valor alchs - Goldstrike Fletch, Last Rites, Aemyr's Order
+		ItemDisplay[NMAG !SUP !INF lwb ILVL>35]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF bax ILVL>16]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+		ItemDisplay[NMAG !SUP !INF pa5 ILVL>27]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 
 		//crown shield - aemyr's alch
 		ItemDisplay[(NMAG) (pa5 AND ILVL>27)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
@@ -434,8 +444,8 @@
 	//Topaz magic ammy 
 	ItemDisplay[(MAG) (au3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 
-	//Diamond ammy - maras alch
-	ItemDisplay[(NMAG AND ILVL>84) (au5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 
 	//Conquest sword - ammuit alch
 	ItemDisplay[(NMAG !SUP !INF) (7bs)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
@@ -557,8 +567,8 @@
 	ItemDisplay[ ( (NMAG !INF !SUP ILVL>24) || (MAG ILVL>25) ) AND (fld)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 	
 //Start WW Barb
-	//Diamond ammy - maras alch
-	ItemDisplay[(NMAG AND ILVL>84) (au5)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 	
 	//eviscerator - crafting
 	ItemDisplay[( (NMAG !INF !SUP) || MAG) (bw3)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]	
@@ -747,9 +757,9 @@
 	//Shadow Cloth - Horror Helm alch
 	ItemDisplay[(NMAG !INF !SUP) na1 ILVL>21]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 		
-	//Diamond ammy - maras alch
-	ItemDisplay[(NMAG !INF !SUP) ILVL>84 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
-	
+	// Diamond Amulet - Mara's alch
+	ItemDisplay[NMAG !INF !SUP ILVL>76 au5]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
 	//tomb wand - edryem odyssey alch
 	ItemDisplay[(NMAG !INF !SUP) 9bw ILVL>47]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 	//lich wand - edryem odyssey alch
