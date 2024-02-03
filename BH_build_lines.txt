@@ -4,6 +4,13 @@
 // Copy/paste them into your bh.cfh under // CUSTOM BUILD LINES
 
 
+// START Jewel Alchs
+	//aquamarine jewel - splash alch
+	//ItemDisplay[(NMAG) (jw5 AND ILVL>32)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
+	//rose jewel - tear alch (astra too)
+	//ItemDisplay[(NMAG) (jw6 AND ILVL>70 AND CLVL>85)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
+
 // START Void Zon
 	//craftable armor
 	ItemDisplay[(MAG || NMAG || RARE) (urs || ucl || utu)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
@@ -665,7 +672,7 @@
 	//Flying Axe - crafting
 	ItemDisplay[(NMAG || MAG) (7ta)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
 
-``//Start Frenzy Barb
+	//Start Frenzy Barb
     //Berserker Axe - Crafting
     ItemDisplay[( (NMAG !SUP !INF) || MAG || RARE) (7wa)]: %NAME% %RED%0%WHITE%%dot-0a%%border-20% [L%ILVL%]
     
