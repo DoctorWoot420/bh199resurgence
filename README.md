@@ -1,3 +1,7 @@
+This project has been superseded by Cosmic Resurgence BH
+https://github.com/DoctorWoot420/cosmic-resurgence-bh
+
+
 # bh199resurgence
 
 This project is basically just a merge of the latest SlashDiablo beta bh 1.9.9 and Planqi's existing resurgence HideNothing config along with a few extra touches from various resurgence community members.
